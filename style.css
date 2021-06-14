@@ -265,7 +265,7 @@ nav .left {
   background-size: cover;
   background-position: center center;
   min-width: 250px;
-  min-height: 450px;
+  min-height: 350px;
 }
 .sc-1 {
   background-image: url(images/desktop/image-gallery-milkbottles.jpg);
@@ -374,7 +374,7 @@ footer ul li {
   position: relative;
 }
 .mobile-menu-active {
-  transform: translate(0%, -60%);
+  transform: translate(0%, -130%);
   margin: 0 auto;
 }
 .mobile-menu ul {
@@ -469,6 +469,9 @@ footer ul li {
   .card p {
     width: 100%;
   }
+  .card:hover{
+    transform: none;
+}
 }
 @media (max-width: 390px) {
   .content-grid,
