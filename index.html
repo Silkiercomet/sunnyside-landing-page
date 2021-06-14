@@ -16,6 +16,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scroll-animation.css" />
     <title>Frontend Mentor | Sunnyside agency landing page</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -71,7 +72,7 @@
           </label>
           </div>
         </nav>
-        <div class="container">
+        <div class="container" data-san="slideTop" >
           <h1>WE ARE CREATIVES</h1>
           <img src="images/icon-arrow-down.svg" alt="">
           
@@ -112,7 +113,7 @@
           <a href="#" class="learn learn-orange">Learn more</a>
         </div>
         
-        <div class="grid-card bg-grid img-3">
+        <div class="grid-card bg-grid img-3" data-san="slideRight">
           <h2>Graphic design</h2>
           <p>
             Great design makes you memorable. We deliver artwork that
@@ -121,7 +122,7 @@
           </p>
         </div>
 
-        <div class="grid-card bg-grid img-4">
+        <div class="grid-card bg-grid img-4" data-san="slideLeft">
           <h2>Photography</h2>
           <p>
             Increase your credibility by getting the most stunning, high-quality
@@ -133,8 +134,8 @@
 
       <section class="testimonials">
         <h3>Client testimonials</h3>
-        <div class="grid-2">
-          <div class="card">
+        <div class="grid-2 " data-san="fade" data-san-delay="100">
+          <div class="card ">
             <img src="images/image-emily.jpg" alt="" />
             <p>
               We put our trust in Sunnyside and they delivered, making sure our
@@ -227,8 +228,9 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Luis Colina</a>.
+      >. Coded by <a href="#">Your Name Here</a>.
     </div>
     <script src="script.js"></script>
+    <script src="scroll-animation.js"></script>
   </body>
 </html>
