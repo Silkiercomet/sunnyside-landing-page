@@ -220,6 +220,10 @@ nav .left {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 300ms ease;
+}
+.card:hover{
+    transform: scale(1.2);
 }
 .card img {
   border-radius: 50%;
